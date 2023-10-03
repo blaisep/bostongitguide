@@ -18,6 +18,7 @@ Non-Goals
 
 We don't expect these terms to make sense now. They serve as a baseline and we will review them at the end.
 We hope that after this talk, these terms will make more sense.
+
     - The languages, (the CLI, plugins, the gui, the API)
     - the places, (Local: the `.git` folder, Github, Gitlab)
     - the roads... (Stage, Commits, Tags, Branches, Origin)
