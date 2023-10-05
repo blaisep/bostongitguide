@@ -1,14 +1,15 @@
 :auto-console: true
+:title: Find your way through git (aka how to think about git)
+:author: Blaise Pabon
+:description: A guide to finding your way around git.
+:keywords: presentation, restructuredtext, impress.js, git
 :css: ./css/boston.css
-:data-transition-duration: 2000
-:skip-help: true
 
-.. title:: Find your way through git (aka how to think about git)
+
+Finding your way around ``git``
+===============================
 
 About this talk
-===============
-
-Why these Goals ?
 -----------------
 
     - This talk provides a way to reason about git in terms of your activity and needs.
@@ -35,8 +36,8 @@ Why not these Goals ?
 
 ----
 
-About the use of personas
-=========================
+About Personas
+==============
 
 Personas as characters
 ----------------------
@@ -48,8 +49,8 @@ Personas as characters
 
 ----
 
-About the use of personas
-=========================
+About Personas
+==============
 
 Why use characters ?
 --------------------
@@ -61,8 +62,8 @@ Each character has a mission, resources and unlocks achievements
 
 ----
 
-What kind of traveler are you?
-==============================
+Choose a character
+==================
 
 Missions
 ---------
@@ -74,8 +75,8 @@ Missions
 
 ----
 
-What kind of traveler are you?
-==============================
+Choose a character
+==================
 
 Resources
 ---------
@@ -95,8 +96,8 @@ Pro -Tip
 It's best to learn with the CLI, then use GUIs and APIs judiciously
 
 
-What kind of traveler are you?
-==============================
+Choose a character
+==================
 
 Achievements
 ------------
@@ -124,7 +125,8 @@ The Tourist
 ===========
 
 Resources
-`````````
+---------
+
     - Optional: a user account
     - Use a GUI client if you like, or the CLI if you plan to visit often.
 
@@ -229,6 +231,7 @@ Unlock Achievement
 -------------------
 
 .. code-block:: bash
+
     Host github.com
     User blaisep
     UseKeychain yes
@@ -295,6 +298,7 @@ The Merchant
 ============
 
 .. code-block:: bash
+
     Host github.com-personal
     HostName github.com
     User git
@@ -324,6 +328,7 @@ The remote URL
 --------------
 
 .. code-block::
+
     git remote origin set-url git@github.com-personal:blaisep/bostongitguide.git
 
 ----
@@ -337,4 +342,13 @@ Explorers discover a create descriptions of the unknown for the benefit of other
 ----
 
 Questions
----------
+=========
+
+...about the material
+
+----
+
+Requests
+========
+
+...for improvements
