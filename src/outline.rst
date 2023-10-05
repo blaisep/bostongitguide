@@ -90,17 +90,27 @@ Resources
 
 ----
 
-Pro -Tip
-========
+About resources
+===============
 
-It's best to learn with the CLI, then use GUIs and APIs judiciously
+We will discuss git generally, but it's worth noting that it comes in many flavors.
 
+Clients
+-------
+
+There are many, many options
+It's best to learn with the CLI, then use GUIs and APIs judiciously.
+
+Servers
+-------
+
+There are also many options: GitLab, Gitea, Stash, GitHub Enterprise, etc.
 
 Choose a character
 ==================
 
-Achievements
-------------
+Unlock achievements
+--------------------
 
     - Pull commits from origin
     - Push commits to origin
