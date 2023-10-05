@@ -1,28 +1,44 @@
 :auto-console: true
+:css: ./css/boston.css
 :data-transition-duration: 2000
 :skip-help: true
 
 .. title:: Find your way through git (aka how to think about git)
 
 
-About this talk
-===============
+Why these Goals ?
+-----------------
 
-Goals
------
-This talk provides a way to reason about git in terms of your activity and needs.
-We use the metaphor of characters to make it playful and make it stick.
+    - This talk provides a way to reason about git in terms of your activity and needs.
+    - We use the metaphor of characters to make it playful and make it stick.
 
-Non-Goals
----------
+We hope that after this talk, these metaphors and terms will make more sense.
+
+    - Clients as dialects, (the CLI, plugins, the gui, the API)
+    - Hosts as states, (Local: the `.git` folder, Github, Gitlab)
+    - Branches as tour routes... (Stage, Commits, Tags, Branches, Origin)
+    - Activities as characters (readers, writers, admins)
 
 We don't expect these terms to make sense now. They serve as a baseline and we will review them at the end.
-We hope that after this talk, these terms will make more sense.
 
-    - The languages, (the CLI, plugins, the gui, the API)
-    - the places, (Local: the `.git` folder, Github, Gitlab)
-    - the roads... (Stage, Commits, Tags, Branches, Origin)
-    - the locals (readers, writers, admins)
+----
+
+Why not these Goals ?
+---------------------
+
+    - Plenty of materials cover git in general
+    - True skills benefit from practice, this talk is meant to help you find what you're looking for
+
+
+
+
+----
+
+Why use characters ?
+--------------------
+
+Git has lots of moving parts. Most resources present one path with all of the pieces eventually on display.
+The purpose of the characters is to help remember the key aspects of how you use git.
 
 ----
 
