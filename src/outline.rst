@@ -235,64 +235,104 @@ Unlock Achievement
     AddKeysToAgent yes
     IdentityFile /Users/bpabon/.ssh/id_ed25519
 
+
 ---
 
 The Merchant
 ============
 
+Merchants travel around trading and adding value along the way.
+*Special Achievement:* Multiple accounts on the same server (eg. personal and professional)
+
+Mission
+-------
+
+    - use multiple accounts on the same service (eg. Github.work, Github.home)
+    - follow the branching strategy (``merge`` , ``rebase``, ``git --amend`` )
+
+---
+
+The Merchant
+============
+
+Resources
+---------
+
+    - A keypair for each account, both on the same laptop
+    - ``push`` privileges to both remotes
+    - Pull Request (Github)
+    - Merge Request (Gitlab)
+
+---
+
+The Merchant
+============
 
 Achievement:
 ------------
 
-use multiple accounts on the same service (eg. Github.work, Github.home)
-
-What to pack
-
-
-
-Places to visit
-    - Push
-    - Pull Request (Github)
-    - Merge Request (Gitlab)
+    - Push changes to a personal repo
+    - Push changes to a work repo
 
 ----
 
-The Merchant (Branch vs Tag, Merge vs Rebase)
----------------------------------------------
+The Merchant
+============
 
-Merchants travel around trading and adding value along the way.
-*Special Achievement:* Multiple remotes (servers)
+Achievement:
+------------
 
-What to pack
-    - Access privileges,
-    - hooks (pre-commit)
-    - CI/CD Workflows
+This achievement requires three steps:
 
-Places to visit
-    - remotes
-    - Tags vs Branches
-    - Rebase vs Merge
-    - Merge conflicts
+    0. A keypair for each account
+    1. Edits to your ``~/.ssh/config``
+    2. Adjust the name and email of your repos
+    3. ``git remote orgin set-url`` of your personal remote
+
+---
+
+The Merchant
+============
+
+.. code-block:: bash
+    Host github.com-personal
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/github-personal_ed25519
+
+---
+
+The Merchant
+============
+
+The ssh config
+--------------
+
+.. note::
+    Places to visit
+        - remotes
+        - Tags vs Branches
+        - Rebase vs Merge
+        - Merge conflicts
 
 ----
 
+The Merchant
+============
+
+The remote URL
+--------------
+
+.. code-block::
+    git remote origin set-url git@github.com-personal:blaisep/bostongitguide.git
+
+----
 
 The Explorer
-------------
+============
 
 Explorers discover a create descriptions of the unknown for the benefit of others.
 
-(init, local, remote, mirrors, upstream, downstream)
-The `.git` folder, Local, Remotes, Origin
-*Special Achievement:* add an upstream remote
-
-Things to pack
-    - Access privileges
-
-Places to visit
-    - Git log
-    - init, mirror
-    - remote add
 
 ----
 
