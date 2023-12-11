@@ -1,0 +1,20 @@
+# https://gist.github.com/rahularity/86da20fe3858e6b311de068201d279e3
+Host github.com
+  User blaisep
+  UseKeychain yes
+  AddKeysToAgent yes
+  IdentityFile /Users/bpabon/.ssh/id_ed25519
+Host github.com-contropl4n3
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/github-controlpl4n3_ed25519
+Host *.softwarefactory-project.io
+  AddKeysToAgent yes
+  IdentityFile /Users/bpabon/.ssh/id_rsa
+Host review.opendev.org
+  User blaisepabon
+  IdentityFile /Users/bpabon/.ssh/id_ed25519
+Host *
+  UseKeychain yes
+  AddKeysToAgent yes
+  IdentityFile /Users/bpabon/.ssh/id_ed25519
