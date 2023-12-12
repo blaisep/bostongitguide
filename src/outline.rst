@@ -213,6 +213,7 @@ Achievement
 -----------
 
     - Create your SSH key, copy the pubkey to github, clone your repo using ssh.
+
     0. Create your ssh key pair
     1. Add your *PUBLIC* key to Github
     2. Add your *PRIVATE* key to your ssh-agent
@@ -414,7 +415,7 @@ Achievement
 Fancy commit history with ``git log``
 
 Simple: ``git log --color --graph --all --pretty=lt``
-and deluxe:
+Deluxe:
 
 .. code-block::
 
@@ -422,7 +423,8 @@ and deluxe:
     --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' \
     --abbrev-commit"
 
-
+And then, totally over-the-top:
+https://github.com/alfunx/.dotfiles/blob/master/.gitconfig#L218-L224
 
 ----
 
